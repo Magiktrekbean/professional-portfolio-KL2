@@ -1,0 +1,252 @@
+:root{--heading-font-family: "Inter", serif;
+    --secondary-font-color: #828282; 
+}
+
+.navbar-brand {
+    /* Kyla Lockett */
+  
+font-family: var(--heading-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.5;
+    margin-left: 40px;
+  }
+  
+  .nav-link {
+    /* Home */
+  font-family: var(--heading-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .navbar-nav .nav-link.active{color:#c1c1c1!important;}
+  body {
+  width: 100%;
+  }
+ .body-content-container{ margin: 0 40px;}
+ .paragraph-content-container{ margin: 20px 120px;}
+  .content-container
+{font-family: var(--heading-font-family); 
+ display: block;
+margin: 0 auto;
+text-align:start;
+width: 100%
+
+}
+
+.content-container h1 {
+
+    font-weight: bold;
+    font-size: 64px;
+  
+    font-style: normal;
+    line-height: 77px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+  }
+ .content-container h2 {
+    
+ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.75);
+ 
+   padding-bottom: 80px;
+  }
+  .rectangle {
+    /* rectangle 1 */
+    width: 100%; /* Full width of the container */
+    height: auto; /* Height will adjust based on content */
+    aspect-ratio: 16 / 9; /* Maintains a 16:9 aspect ratio */
+    max-height: 300px; /* Maximum height */
+    background-color: lightgray; /* Added for visibility, can be removed */
+  }
+  
+  .picture {
+    /* Ellipse 1 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%; /* Responsive width */
+    height: auto; /* Height proportional to width */
+    max-width: 450px; /* Optional: limits the maximum width */
+    transform: translate(-50%, -50%);
+    border-radius: 50%; /* Makes it an ellipse if height differs */
+  }
+  
+ 
+  .content-container h3 {
+    margin-top: 10px;
+    padding: 30px 35px 0 35px ;
+  
+    /* Latest Projects */
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+  
+    letter-spacing: -0.02em;
+  
+    color: #000000;
+
+    text-align: start;
+  }
+  .image-container {
+    position: relative;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  .body-content-container .index img:hover, .body-content-container .work img:hover{transform: scale(1.2);
+  transition: all 300ms ease-in-out;}
+  .button-faq{ padding: 12px 24px;}
+
+  .card-text{
+    color: var(--secondary-font-color)
+  }
+  p.content, button.content {font-size: 20px;
+line-height: 30px;}
+
+
+  h4 {
+    /* Pricing? */
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+  
+    color: #000000;
+  
+  }
+  h4.content{ font-size: 32px;}
+  
+  p {
+    /* Body text for whatever you'd like to expand on the main point. */
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+  
+    color: #828282;
+ margin-bottom: 30px;
+ font-size: 24px;
+  }
+  .sub-paragraph{font-size: 19px;}
+  .client-image {
+width:100%;
+  }
+
+  .button-consultation-email {padding: 10px 22px;}
+  .button-consultation-contact{ padding: 10px 22px; white-space: nowrap;}
+
+
+.about-image{display: block;
+margin: 0 auto;}
+
+
+.aboutme-images{margin: 70px 0;}
+
+
+footer{color: var(--secondary-font-color);}
+.center-block {
+  display: block;
+  margin: 0 auto;
+}
+.bg-custom {
+  background-image: url('/images/background.jpeg');
+  background-size: cover; 
+  background-position: center;
+
+}
+footer .socials a{color: var(--secondary-font-color);
+padding: 8px;}
+footer .socials a:hover, .my-site:hover {color: #000000;}
+footer .socials .font{font-size: 24px;}
+
+  @media (max-width: 900px) {
+    /* Adjust styles for smaller screens */
+    .rectangle {
+      max-height: 300px; /* Reduce the maximum height on smaller screens */
+      margin-bottom: 75px;
+    }
+    .picture {
+      width: 80%; /* Adjust width for smaller screens */
+      max-width: none; /* Remove max-width to allow more flexibility */
+    }
+    h1.media {
+      max-width: 100%;
+      font-size: 48px;
+      text-align: center;
+ 
+    }
+    h2.media {
+      max-width: 100%;
+      font-size: 24px;
+      text-align: center;
+    }
+    h3.media {
+      max-width: fit-content;
+      font-size: 48px;
+display: block;
+margin:  0 auto;
+padding: 50px 0 30px 0;
+     
+    
+    }
+.heading-questions {font-size: 48px;
+padding: 0 0 30px 0;
+text-align: center;}
+.heading-award{
+    text-align: center;
+}
+    body {
+      max-width: 100%;
+      height: auto;
+    }
+   
+  }
+  @media (max-width:576px) {
+
+ .content-container{margin: 0!important;
+padding: 0 0 30px 0!important;}
+h1{font-size: 48px!important;}
+    h3.media { 
+font-size: 35px;
+text-align: center;
+}
+img.picture {padding-top: 0!important;}
+img.rectangle{margin-bottom: 50px;}
+
+.content-container h3{ text-align: center;
+font-size: 35px;
+padding-top: 0;
+margin-top: 0;}
+h4{text-align: center;}
+p.content{ text-align: center;
+font-size: 18px;
+line-height: 2;}
+
+.paragraph-content-container{ margin: 10px 20px;}
+.about-card-seo{margin-bottom: 20px;}
+.about-card-mat{ margin-bottom: 20px;}
+.p-about-card{font-size: 20px;}
+.about-heading{font-size: 40px;}
+    .form-media{ width: 100%!important;
+ }
+ .form-media-first{margin-bottom: 15px;}
+
+    
+  }
