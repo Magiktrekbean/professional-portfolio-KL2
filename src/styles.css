@@ -177,7 +177,7 @@ color: black;}
 
 footer .socials a{color: var(--secondary-font-color);
 padding: 8px;}
-footer .socials a:hover, .my-site:hover {color: #000000;}
+footer .socials a:hover, .my-site:hover {color: #000000!important;}
 footer .socials .font{font-size: 24px;}
 
   @media (max-width: 900px) {
