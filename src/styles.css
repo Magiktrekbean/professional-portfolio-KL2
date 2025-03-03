@@ -171,6 +171,10 @@ footer{color: var(--secondary-font-color);}
   background-position: center;
 
 }
+
+.content-container div .contact {border: 10px dotted var(--secondary-font-color);
+color: black;}
+
 footer .socials a{color: var(--secondary-font-color);
 padding: 8px;}
 footer .socials a:hover, .my-site:hover {color: #000000;}
